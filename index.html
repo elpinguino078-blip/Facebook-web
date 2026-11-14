@@ -1,49 +1,72 @@
-8<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Facebook - log in or sign up</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clon UI - Proyecto Educativo</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- <div class="container">
-        <div class="logo">
-            facebook
-        </div>
-        <div class="login-form">
-            <form>
-                <input type="text" placeholder="Email or phone number" required>
-                <input type="password" placeholder="Password" required>
-                <button type="submit">Log In</button>
-            </form>
-            <a href="#" class="forgot">Forgot password?</a>
-            <hr>
-            <button class="create-account">Create new account</button>
-        </div>
-    </div> -->
 
+  <!-- Banner superior de aviso educativo -->
+  <div style="background-color: #ffcc00; color: #000; text-align: center; padding: 10px; font-family: sans-serif; font-size: 13px; font-weight: bold;">
+    ⚠️ PROYECTO EDUCATIVO: Práctica de diseño web y programación. No es la página oficial de Facebook. No ingreses contraseñas reales.
+  </div>
 
-    <div class="container">
-        <div class="facebook-page">
-            <div class="text">
-                <h1>Facebook</h1>
-                <p>Connect with friends and the world</p>
-                <p>around you on Facebook</p>
-            </div>
-            <form action="/procesar" method="POST"
-                <input type="text" placeholder="Email or phone number" name="usuario" required>
-                <input type="password" placeholder="Password" name="clave" required>
-                <div class="login-link">
-                    <button type="submit" class="login-btn">Log In</button>
-                    <a href="#" class="forgot-password">Forgot password?</a>
-                </div>
-                <hr>
-                <div class="create-account">
-                    <a href="#">Create new account</a>
-                </div>
-            </form>
+  <!-- Pantalla principal de inicio de sesión -->
+  <div class="container" id="loginContainer">
+    <div class="facebook-page">
+      <div class="text">
+        <h1>Facebook</h1>
+        <p>Connect with friends and the world</p>
+        <p>around you on Facebook</p>
+      </div>
+      
+      <form id="loginForm">
+        <input type="text" name="usuario" placeholder="Email or phone number" required>
+        
+        <!-- Campo de contraseña con botón Mostrar/Ocultar -->
+        <div style="position: relative; width: 100%;">
+          <input type="password" id="passwordInput" name="clave" placeholder="Password" required style="width: 100%; box-sizing: border-box;">
+          <span id="togglePassword" style="position: absolute; right: 12px; top: 42%; transform: translateY(-50%); cursor: pointer; font-size: 13px; color: #1877f2; font-weight: bold; user-select: none;">
+            Mostrar
+          </span>
         </div>
+
+        <div class="login-link">
+          <button type="submit" class="login-btn">Log In</button>
+          
+          <!-- Texto dinámico para mostrar errores o mensajes de carga -->
+          <p id="mensajeEstado" style="margin: 10px 0 0 0; font-size: 14px; font-weight: bold; text-align: center;"></p>
+          
+          <a href="#" id="btnOlvideClave" class="forgot-password">Forgot password?</a>
+        </div>
+        
+        <hr>
+        
+        <div class="create-account">
+          <a href="#" id="btnCrearCuenta">Create new account</a>
+        </div>
+      </form>
     </div>
-</body <script type="module" src="script.js"></script>
+  </div>
+
+  <!-- Panel de bienvenida (aparece al iniciar sesión) -->
+  <div id="panelBienvenida" style="display: none; text-align: center; padding: 50px 20px; font-family: sans-serif; max-width: 400px; margin: 40px auto; background: #fff; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <h2 style="color: #1877f2; margin-bottom: 10px;">¡Sesión iniciada!</h2>
+    <p style="color: #606770; font-size: 15px;">Has accedido correctamente como:</p>
+    <p id="correoUsuario" style="margin: 15px 0; font-size: 16px; font-weight: bold; color: #1c1e21;"></p>
+    <button id="btnCerrarSesion" style="background-color: #e4e6eb; color: #050505; border: none; padding: 12px 24px; border-radius: 6px; font-size: 15px; font-weight: bold; cursor: pointer; margin-top: 10px;">
+      Cerrar sesión
+    </button>
+  </div>
+
+  <!-- Pie de página educativo -->
+  <footer style="text-align: center; padding: 20px; font-size: 12px; color: #737373; font-family: sans-serif;">
+    <p>Clon de interfaz de usuario desarrollado con fines 100% educativos y de portafolio.</p>
+    <p>No afiliado a Meta Platforms, Inc.</p>
+  </footer>
+
+  <script type="module" src="script.js"></script>
+</body>
 </html>
