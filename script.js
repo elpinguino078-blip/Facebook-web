@@ -3,16 +3,19 @@ import {
   getAuth, 
   signInWithEmailAndPassword, 
   createUserWithEmailAndPassword, 
-  signOut,
-  onAuthStateChanged
+  signOut, 
+  onAuthStateChanged 
 } from "https://gstatic.com";
 
-// 1. Pega aquí tus credenciales reales de Firebase
+// Tus credenciales reales de Firebase
 const firebaseConfig = {
-  apiKey: "TU_API_KEY",
+  apiKey: "AIzaSyAGgGjU88J8e_KdfFR0TAsqRVan07ubosc",
   authDomain: "://firebaseapp.com",
-  projectId: "tu-proyecto",
-  appId: "TU_APP_ID"
+  projectId: "facebook-clone-3860f",
+  storageBucket: "facebook-clone-3860f.firebasestorage.app",
+  messagingSenderId: "1077710418150",
+  appId: "1:1077710418150:web:3211d810dba554d3b3cb27",
+  measurementId: "G-8RPD21RX9S"
 };
 
 // Inicializar Firebase
