@@ -1,43 +1,44 @@
-# 🌐 Facebook Login Page Clone
+# 🎨 Práctica de Interfaz UI - Página de Acceso Responsiva
 
-ဒီ Project ဟာ ကမ္ဘာကျော် Social Media တစ်ခုဖြစ်တဲ့ **Facebook** ရဲ့ Login Page ကို ပုံစံတူ (Clone) ပြန်လည်ဖန်တီးထားတာ ဖြစ်ပါတယ်။ **HTML5** နဲ့ **CSS3** ကိုသာ အသုံးပြုပြီး Responsive ဖြစ်အောင် အထူးဂရုစိုက် တည်ဆောက်ထားပါတယ်။
-
----
-
-## 🌟 Features (ထူးခြားချက်များ)
-
-* **Precise UI Clone:** Facebook ရဲ့ မူရင်းအရောင်၊ Font နဲ့ Layout အတိုင်း တိကျစွာ ဖန်တီးထားခြင်း။
-* **Fully Responsive:** မိုဘိုင်းလ်ဖုန်း၊ တက်ဘလက်နဲ့ ကွန်ပျူတာ Screen အားလုံးမှာ ပုံစံမပျက်ဘဲ အဆင်ပြေစွာ မြင်တွေ့နိုင်ခြင်း။
-* **Interactive Elements:** Login button, Forgot password link နဲ့ Create new account button များတွင် Hover effects များ ထည့်သွင်းထားခြင်း။
-* **Clean Code:** ဖတ်ရလွယ်ကူပြီး စနစ်တကျရှိတဲ့ HTML/CSS structure ကို အသုံးပြုထားခြင်း။
+> **⚠️ Aviso Educativo:** Este proyecto es exclusivamente una práctica de desarrollo frontend (HTML5 y CSS3) con fines de aprendizaje y portafolio. **No es un sitio oficial**, no tiene funcionalidad de inicio de sesión real y no recopila, almacena ni transmite ningún tipo de dato de usuario.
 
 ---
 
-## 📸 Preview (ပုံရိပ်များ)
+## 📋 Descripción
 
-![Facebook Login Page Preview](https://github.com/user-attachments/assets/6a3d8a98-9533-4dc3-b47b-c8837f4b6c80)
+Este repositorio contiene el diseño estático de una página de inicio de sesión moderna y adaptable a dispositivos móviles. El objetivo principal del proyecto es practicar la maquetación web, el uso de Flexbox/Grid y la aplicación de estilos visuales limpios sin utilizar frameworks externos.
+
+## ✨ Características
+
+* **Diseño Responsivo:** Se adapta correctamente a pantallas de computadoras de escritorio, tabletas y teléfonos móviles mediante *Media Queries*.
+* **Estructura Semántica:** Código organizado utilizando etiquetas estándar de HTML5.
+* **Elementos Interactivos:** Efectos visuales (*hover* y *focus*) en botones, enlaces y campos de texto hechos únicamente con CSS.
+* **Sin Recolección de Datos:** Los formularios son meramente visuales y están desactivados para garantizar la seguridad del usuario.
+
+## 🛠️ Tecnologías Utilizadas
+
+* **HTML5:** Estructura y contenido de la interfaz.
+* **CSS3:** Estilos, diseño flexible (Flexbox) y adaptabilidad móvil.
+
+## 🚀 Cómo visualizar el proyecto
+
+Para probar esta interfaz de manera local en tu computadora:
+
+1. Clona este repositorio o descarga los archivos en formato `.zip`:
+   ```bash
+   git clone https://github.com
+   ```
+2. Abre la carpeta del proyecto.
+3. Haz doble clic en el archivo `index.html` para abrirlo en tu navegador web preferido.
+
+## 🖼️ Vista Previa
+
+![Vista previa del diseño](ruta-de-tu-imagen.png)
+*(Nota: Reemplaza `ruta-de-tu-imagen.png` con el enlace o nombre exacto de tu captura de pantalla).*
+
+## 👤 Autor
+
+* **GitHub:** [@elpinguino078-blip](https://github.com)
 
 ---
-
-## 🛠️ Built With (အသုံးပြုထားသော နည်းပညာများ)
-
-* **HTML5** - Page structure နဲ့ Content များအတွက်။
-* **CSS3** - Layout (Flexbox), Styling နဲ့ Responsive design (Media Queries) များအတွက်။
-
----
-
-## 🚀 How to Run (အသုံးပြုပုံ)
-
-၁။ ဒီ Repository ကို **Clone** လုပ်ပါ သို့မဟုတ် **Download ZIP** ဆွဲပါ။
-၂။ Folder ထဲရှိ `index.html` ဖိုင်ကို Browser ဖြင့် ဖွင့်လှစ်၍ ကြည့်ရှုနိုင်ပါသည်။
-
----
-
-## 👨‍💻 Author
-
-**Paing Zin Ye Maung**
-* **GitHub:** [GitHub Profile](https://github.com/paingzinyemaung)
-* **LinkedIn:** [LinkedIn Profile](https://linkedin.com/in/paingzinyemaung)
-
----
-⭐️ သင် ဒီ Project လေးကို သဘောကျတယ်ဆိုရင် **Star** ပေးခဲ့ဖို့ မမေ့နဲ့ဦးနော်!
+*Proyecto desarrollado con fines estrictamente educativos.*
